@@ -25,19 +25,23 @@ class Analyzer():
         return self.df
 
     def find_weapon_name(self):
+        self.df['weapons_detected'] = self.df.apply(self.lop_of_array_weapons, axis=1)
+        return self.df
+    def lop_of_array_weapons(self,row):
         arr_weapon = []
         BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         file_path = os.path.join(BASE_DIR, 'data', 'weapon_list.txt')
 
         with open(file_path, 'r') as file:
-            for name_weapon in file.readlines():
-                nwe_name = name_weapon.strip('\n')
-                arr_weapon.append(nwe_name)
-            for name in arr_weapon:
-                if name not in self.df.index:
-                    self.df['weapons_detected'] = ''
-                elif name in self.df.index:
-                    self.df['weapons_detected'] += name
-        return self.df
+            arr_weapon = file.read().split('\n')
+        for w in arr_weapon:
+            if w in row['array_text']:
+                return w
+        return ""
 
 
+
+
+analyzer = Analyzer()
+analyzer.rarest_word()
+print(analyzer.find_weapon_name())

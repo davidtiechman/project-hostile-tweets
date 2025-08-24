@@ -1,5 +1,8 @@
 import json
 import os
+
+from pandas.io.json import to_json
+
 from app.processor import Analyzer
 
 class Wires_to_json:
