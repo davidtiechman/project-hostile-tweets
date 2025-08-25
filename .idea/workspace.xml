@@ -1,15 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f86dbb-56d6-4519-b789-884ff8205e87" name="Changes" comment="" />
+    <list default="true" id="59f86dbb-56d6-4519-b789-884ff8205e87" name="Changes" comment="furst cimmit">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/retcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/weapons.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loader-data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/commands.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "davidtiechman"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/davidtiechman/project-hostile-tweets.git",
+    "accountId": "c296eae0-0023-4086-b294-7987706c70fb"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -21,7 +55,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.loader-data.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
@@ -40,6 +76,19 @@
       <option name="presentableId" value="Default" />
       <updated>1755757848481</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="furst cimmit">
+      <option name="closed" value="true" />
+      <created>1755757938124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1755757938124</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="furst cimmit" />
+    <option name="LAST_COMMIT_MESSAGE" value="furst cimmit" />
   </component>
 </project>
